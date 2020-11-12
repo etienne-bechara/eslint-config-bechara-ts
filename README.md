@@ -21,10 +21,32 @@ module.exports =  {
 }
 ```
 
-3\. Add a pre-commit hook to fix and validate all staged files, it can be automatically created with:
+3\. To prevent unverified code being committed, install these supporting tools for git hooks:
+
 ```
-npx mrm lint-staged
+npm i -D husky lint-staged
 ```
+
+4\. Configure lint execution during pre-commit by adding the following properties to your `package.json`:
+
+```json
+"lint-staged": {
+  "*.ts": "eslint --cache --fix"
+},
+"husky": {
+  "hooks": {
+    "pre-commit": "lint-staged --allow-empty"
+  }
+},
+```
+
+5\. Finally, create the hooks by rebuilding the package:
+
+```
+npm rebuild
+```
+
+Remember to add `.eslintcache` to your `.gitignore` as it is irrelevant to the project.
 
 
 ## Rules
