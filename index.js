@@ -11,6 +11,11 @@ module.exports =  {
     project: './tsconfig.json',
   },
 
+  ignorePatterns: [
+    '**/*.d.ts',
+    '**/*.js',
+  ],
+
   /**
    * ENVIRONMENT DEFINITION
    * Adds global declarations to the recognizable lint scope, which makes sure
@@ -68,8 +73,9 @@ module.exports =  {
     '@typescript-eslint/no-unsafe-member-access': [ 'off' ], // Enables nesting properties on 'any' type
     '@typescript-eslint/no-unsafe-return': [ 'off' ], // Enables 'any' typed variables on returns
     '@typescript-eslint/restrict-template-expressions': [ 'off' ], // Complicates handling Error objects
-    'unicorn/catch-error-name': [ 'off' ], // Allow using 'e' on catch instead of forced 'error'
     'import/export': [ 'off' ], // Does not work with TypeScript
+    'jest/no-deprecated-functions': [ 'off' ], // Only relevant for Jest, we want the plugin to be generic
+    'unicorn/catch-error-name': [ 'off' ], // Allow using 'e' on catch instead of forced 'error'
     'unicorn/no-null': [ 'off' ], // Allow using 'null', useful for returning strict DTO
     'unicorn/no-reduce': [ 'off' ], // Allow using .reduce() method of Arrays
     'unicorn/prevent-abbreviations': [ 'off' ], // Allow common abbreviations (param, err, etc)
@@ -201,10 +207,10 @@ module.exports =  {
     // Commas, semicolons, quotes, parenthesis and brackets
     '@typescript-eslint/quotes': [ 'warn', 'single', { avoidEscape: true }],
     '@typescript-eslint/member-delimiter-style': [ 'warn' ],
+    '@typescript-eslint/no-extra-parens': [ 'warn' ],
     '@typescript-eslint/semi': [ 'warn' ],
     'comma-dangle': [ 'warn', 'always-multiline' ],
     'curly': [ 'warn', 'multi-line', 'consistent' ],
-    'no-extra-parens': [ 'warn' ],    
   },
 
 };
