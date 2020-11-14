@@ -12,8 +12,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "update:patch": "ncu -u --semverLevel minor && npm i && npm audit fix",
-    "update:minor": "ncu -u --semverLevel major && npm i && npm audit fix",
+    "update:patch": "ncu -u --semverLevel patch && npm i && npm audit fix",
+    "update:minor": "ncu -u --semverLevel minor && npm i && npm audit fix",
     "update:major": "ncu -u && npm i && npm audit fix --force"
   },
   "husky": {
