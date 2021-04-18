@@ -30,21 +30,24 @@ npm i -D husky lint-staged
 4\. Configure lint execution during pre-commit by adding the following properties to your `package.json`:
 
 ```json
+"script": {
+  "prepare": "husky install .config/husky"
+},
 "lint-staged": {
   "*.ts": "eslint --cache --fix"
-},
-"husky": {
-  "hooks": {
-    "pre-commit": "lint-staged --allow-empty"
-  }
-},
+}
 ```
 
-5\. Finally, create the hooks by rebuilding the package:
+5\. Run `npm i` to create `husky` configuration directory and create a file at `/.config/husky/pre-commit`:
 
+```bash
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx lint-staged --allow-empty
 ```
-npm rebuild
-```
+
+6\. Finally, run `npm i` again to create the git hooks.
 
 Remember to add `.eslintcache` to your `.gitignore` as it is irrelevant to the project.
 

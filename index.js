@@ -74,6 +74,7 @@ module.exports =  {
     '@typescript-eslint/no-unsafe-return': [ 'off' ], // Enables 'any' typed variables on returns
     '@typescript-eslint/restrict-template-expressions': [ 'off' ], // Complicates handling Error objects
     'import/export': [ 'off' ], // Does not work with TypeScript
+    'import/namespace': [ 'off' ], // Extremely slow to resolve
     'jest/no-deprecated-functions': [ 'off' ], // Only relevant for Jest, we want the plugin to be generic
     'unicorn/catch-error-name': [ 'off' ], // Allow using 'e' on catch instead of forced 'error'
     'unicorn/no-null': [ 'off' ], // Allow using 'null', useful for returning strict DTO
@@ -91,7 +92,6 @@ module.exports =  {
     'no-setter-return': [ 'error' ], // Disallow returning on setters
     'no-throw-literal': [ 'error' ], // Disallow throwing types different than Error
     'promise/prefer-await-to-then': [ 'error' ], // Disallow .then()
-    'unicorn/no-unsafe-regex': [ 'error' ], // Prevent regex that may lead to catasthrophic backtracking
 
     /**
      * LOWERED SEVERITY RULES
@@ -108,8 +108,7 @@ module.exports =  {
      */
     '@typescript-eslint/array-type': [ 'warn' ], // Enforces consistent array declaration
     '@typescript-eslint/prefer-optional-chain': [ 'warn' ], // Enforces optional chaining when available
-    'import/no-useless-path-segments': [ 'warn', { noUselessIndex: true } ], // Enforces shortest possible path
-    'max-len': [ 'warn', { code: 120, comments: 120 } ], // Maximum column length
+    'max-len': [ 'warn', { code: 120, ignorePattern: '^import [^,]+ from |^export | implements ' } ], // Maximum column length
     'no-console': [ 'warn' ], // Disallow console.log
     'simple-import-sort/sort': [ 'warn' ], // Force import ordering
     'unused-imports/no-unused-imports-ts': [ 'warn' ], // Disallow unused imported modules
