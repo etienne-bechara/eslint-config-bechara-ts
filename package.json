@@ -1,6 +1,6 @@
 {
   "name": "@bechara/eslint-config-bechara-ts",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Custom ESLint configuration for Node.js projects written in TypeScript",
   "author": {
     "name": "Etienne Bechara",
