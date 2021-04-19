@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.1.0...v1.1.1) (2021-04-19)
+
+
+### Bug Fixes
+
+* sort and max-len rules ([909be31](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/909be3155f6b57c9be5b11c3b63b8ea7d4f4d6bf))
+
 # [1.1.0](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.0.1...v1.1.0) (2021-04-18)
 
 
