@@ -28,4 +28,4 @@ jobs:
           pnpm i --frozen-lockfile --ignore-scripts
 
       - name: Publish to NPM
-        run: pnpx -y semantic-release
+        run: npx semantic-release

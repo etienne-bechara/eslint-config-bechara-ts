@@ -11,15 +11,6 @@
     "url": "https://github.com/etienne-bechara/eslint-config-bechara-ts"
   },
   "license": "MIT",
-  "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install .config/husky"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
@@ -28,6 +19,14 @@
       "@semantic-release/changelog",
       "@semantic-release/git",
       "@semantic-release/github"
+    ]
+  },
+  "scripts": {
+    "prepare": "husky install .config/husky"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
     ]
   },
   "dependencies": {
