@@ -77,6 +77,7 @@ module.exports =  {
     'import/namespace': [ 'off' ], // Extremely slow to resolve
     'jest/no-deprecated-functions': [ 'off' ], // Only relevant for Jest, we want the plugin to be generic
     'unicorn/catch-error-name': [ 'off' ], // Allow using 'e' on catch instead of forced 'error'
+    'unicorn/empty-brace-spaces': [ 'off' ], // Allow spaces in empty braces
     'unicorn/no-null': [ 'off' ], // Allow using 'null', useful for returning strict DTO
     'unicorn/no-reduce': [ 'off' ], // Allow using .reduce() method of Arrays
     'unicorn/prevent-abbreviations': [ 'off' ], // Allow common abbreviations (param, err, etc)
@@ -108,9 +109,10 @@ module.exports =  {
      */
     '@typescript-eslint/array-type': [ 'warn' ], // Enforces consistent array declaration
     '@typescript-eslint/prefer-optional-chain': [ 'warn' ], // Enforces optional chaining when available
-    'max-len': [ 'warn', { code: 120, ignorePattern: '^import [^,]+ from |^export | implements ' } ], // Maximum column length
+    'max-len': [ 'warn', { code: 120, ignorePattern: '^import |export ' } ], // Maximum column length
     'no-console': [ 'warn' ], // Disallow console.log
-    'simple-import-sort/sort': [ 'warn' ], // Force import ordering
+    'simple-import-sort/imports': [ 'warn' ], // Forces imports sorting
+    'simple-import-sort/exports': [ 'warn' ], // Forces exports sorting
     'unused-imports/no-unused-imports-ts': [ 'warn' ], // Disallow unused imported modules
 
     /**
