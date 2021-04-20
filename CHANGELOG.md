@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.1.2...v1.1.3) (2021-04-20)
+
+
+### Bug Fixes
+
+* mispelling ([e4710b7](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/e4710b7184ddadcdb6c67b0815541c8d2046baae))
+
 ## [1.1.2](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.1.1...v1.1.2) (2021-04-19)
 
 
