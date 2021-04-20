@@ -79,7 +79,7 @@ module.exports =  {
     'unicorn/catch-error-name': [ 'off' ], // Allow using 'e' on catch instead of forced 'error'
     'unicorn/empty-brace-spaces': [ 'off' ], // Allow spaces in empty braces
     'unicorn/no-null': [ 'off' ], // Allow using 'null', useful for returning strict DTO
-    'unicorn/no-reduce': [ 'off' ], // Allow using .reduce() method of Arrays
+    'unicorn/no-array-reduce': [ 'off' ], // .reduce() is useful in many situations and has no replacement
     'unicorn/prevent-abbreviations': [ 'off' ], // Allow common abbreviations (param, err, etc)
 
     /**
