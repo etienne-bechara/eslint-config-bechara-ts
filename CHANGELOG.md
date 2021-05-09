@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.1.4...v1.1.5) (2021-05-09)
+
+
+### Bug Fixes
+
+* disable prefer node protocol ([e7109a7](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/e7109a7e657e52e25298dd268fba4f4ebb37bb30))
+
 ## [1.1.4](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.1.3...v1.1.4) (2021-05-09)
 
 
