@@ -192,12 +192,7 @@ module.exports =  {
     'lines-between-class-members': [ 'warn', 'always', { exceptAfterSingleLine: true } ],
     'newline-per-chained-call': [ 'warn', { ignoreChainWithDepth: 3 }],
     'no-multiple-empty-lines': [ 'warn', { max: 1 }],
-    'object-curly-newline': [ 'warn', {
-      ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
-      ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
-      ImportDeclaration: 'never',
-      ExportDeclaration: 'never',
-    } ],
+    'object-curly-newline': [ 'warn', { multiline: true, consistent: true } ],
     'object-property-newline': [ 'warn', { allowAllPropertiesOnSameLine : true } ],
     'padded-blocks': [ 'warn', { blocks: 'never', classes: 'always', switches: 'never' } ],
     'padding-line-between-statements': [ 'warn',
