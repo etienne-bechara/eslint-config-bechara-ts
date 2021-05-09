@@ -80,6 +80,7 @@ module.exports =  {
     'unicorn/empty-brace-spaces': [ 'off' ], // Allow spaces in empty braces
     'unicorn/no-null': [ 'off' ], // Allow using 'null', useful for returning strict DTO
     'unicorn/no-array-reduce': [ 'off' ], // .reduce() is useful in many situations and has no replacement
+    'unicorn/prefer-node-protocol': [ 'off' ], // Conflicts with pnpm
     'unicorn/prevent-abbreviations': [ 'off' ], // Allow common abbreviations (param, err, etc)
 
     /**
