@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.1.3...v1.1.4) (2021-05-09)
+
+
+### Bug Fixes
+
+* make curly newline less string (due to destructuring of short properties) ([cf6a7a1](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/cf6a7a1ceda3cecf7bab6473eee52dc38c866583))
+
 ## [1.1.3](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.1.2...v1.1.3) (2021-04-20)
 
 
