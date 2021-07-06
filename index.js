@@ -44,6 +44,20 @@ module.exports =  {
   ],
 
   /**
+   * OVERRIDDEN RULES
+   * Will take precedence over other definitions based on file patterns
+   */
+  overrides: [
+    // Do not require JSDoc on controller files
+    {
+      files: [ '*controller*' ],
+      rules: {
+        'jsdoc/require-jsdoc': [ 'off' ],
+      }
+    }
+  ],
+
+  /**
    * BASE RULES
    * These extensions defines the full set of starting rules
    * Additions and exclusions are in 'rules' property
@@ -65,9 +79,9 @@ module.exports =  {
      * DISABLED RULES
      * These were included by the 'extends' property.
      */
-    '@typescript-eslint/no-inferrable-types': [ 'off' ], // Collides with typedef
     '@typescript-eslint/explicit-module-boundary-types': [ 'off' ], // Enables the 'any' keyword on arguments
     '@typescript-eslint/no-explicit-any': [ 'off' ], // Enables the 'any' keyword on declarations
+    '@typescript-eslint/no-inferrable-types': [ 'off' ], // Collides with typedef
     '@typescript-eslint/no-unsafe-assignment': [ 'off' ], // Enables 'any' typed variables on assignments
     '@typescript-eslint/no-unsafe-call': [ 'off' ], // Enables the 'any' typed variables as parameters
     '@typescript-eslint/no-unsafe-member-access': [ 'off' ], // Enables nesting properties on 'any' type
@@ -78,6 +92,7 @@ module.exports =  {
     'jest/no-deprecated-functions': [ 'off' ], // Only relevant for Jest, we want the plugin to be generic
     'unicorn/catch-error-name': [ 'off' ], // Allow using 'e' on catch instead of forced 'error'
     'unicorn/empty-brace-spaces': [ 'off' ], // Allow spaces in empty braces
+    'unicorn/no-nested-ternary': [ 'off' ], // Conflicts with no unnecessary parenthesis
     'unicorn/no-null': [ 'off' ], // Allow using 'null', useful for returning strict DTO
     'unicorn/no-array-reduce': [ 'off' ], // .reduce() is useful in many situations and has no replacement
     'unicorn/prefer-node-protocol': [ 'off' ], // Conflicts with pnpm
