@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.1.5...v1.2.0) (2021-07-06)
+
+
+### Bug Fixes
+
+* disable no nested ternary and controller jsdoc ([f1cf089](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/f1cf089461ca7c8d31e8a8531046e5e42dbdaf4d))
+
+
+### Features
+
+* bump plugins ([adcf193](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/adcf1938c77f0bd747bc1b7f2a81fb35f8304720))
+
 ## [1.1.5](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.1.4...v1.1.5) (2021-05-09)
 
 
