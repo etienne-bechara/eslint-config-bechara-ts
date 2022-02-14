@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.2.0...v1.3.0) (2021-11-12)
+
+
+### Features
+
+* bump eslint and plugins ([3ba8d4a](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/3ba8d4a98a8f57589b41390209006e20e0d432e1))
+
 # [1.2.0](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.1.5...v1.2.0) (2021-07-06)
 
 
