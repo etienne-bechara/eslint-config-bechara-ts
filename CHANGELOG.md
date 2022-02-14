@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.3.0...v1.4.0) (2022-02-14)
+
+
+### Features
+
+* update plugins ([25c1c25](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/25c1c2579d4f5ad84207db388e01040411dafc08))
+
 # [1.3.0](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.2.0...v1.3.0) (2021-11-12)
 
 
