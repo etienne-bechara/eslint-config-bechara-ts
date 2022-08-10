@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.4.0...v1.4.1) (2022-08-10)
+
+
+### Bug Fixes
+
+* bump deps, disable some rules for decorators ([adc9c3d](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/adc9c3d32afe73958bbe3c042ea229da7ea19b0d))
+
 # [1.4.0](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.3.0...v1.4.0) (2022-02-14)
 
 
