@@ -48,13 +48,30 @@ module.exports =  {
    * Will take precedence over other definitions based on file patterns
    */
   overrides: [
-    // Do not require JSDoc on controller files
+    // Do not require JSDoc at controllers
     {
       files: [ '*controller*' ],
       rules: {
         'jsdoc/require-jsdoc': [ 'off' ],
       }
-    }
+    },
+
+    // Do not require camel case at decorators
+    {
+      files: [ '*decorator*' ],
+      rules: {
+        '@typescript-eslint/naming-convention': [ 'off' ],
+      }
+    },
+
+    // Do not require bound methods and safe arguments at tests
+    {
+      files: [ '*spec*' ],
+      rules: {
+        '@typescript-eslint/unbound-method': [ 'off' ],
+        '@typescript-eslint/no-unsafe-argument': [ 'off' ],
+      }
+    },
   ],
 
   /**
