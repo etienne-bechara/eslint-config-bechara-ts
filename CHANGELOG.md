@@ -1,3 +1,10 @@
+## [1.4.2-beta.1](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.4.1...v1.4.2-beta.1) (2023-04-08)
+
+
+### Bug Fixes
+
+* remove build ([8501e92](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/8501e92c4cdd5e1ed4be3511c29e6d79f0d83575))
+
 ## [1.4.1](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.4.0...v1.4.1) (2022-08-10)
 
 
