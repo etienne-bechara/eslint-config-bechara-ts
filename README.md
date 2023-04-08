@@ -1,7 +1,3 @@
-⚠️ **Disclaimer**: This project is opinionated and intended for personal use.
-
----
-
 # Bechara - TypeScript ESLint Configuration
 
 This package offers a custom set of rules to be used across Node.js projects written in TypeScript.
