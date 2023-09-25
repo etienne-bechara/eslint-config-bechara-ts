@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.4.2...v1.5.0) (2023-09-25)
+
+
+### Features
+
+* **package:** bump extension versions ([4e4bc42](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/4e4bc4226c176e7a5715e58b78ab4ae340dfa22d))
+
 ## [1.4.2](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.4.1...v1.4.2) (2023-04-08)
 
 
