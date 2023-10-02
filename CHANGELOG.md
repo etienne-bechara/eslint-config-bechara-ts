@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.5.0...v1.5.1) (2023-10-02)
+
+
+### Bug Fixes
+
+* disable no-unsafe-enum-comparison ([3c977ac](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/3c977ac6f911bc5ef05cc72464d2502207093ddf))
+
 # [1.5.0](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.4.2...v1.5.0) (2023-09-25)
 
 
