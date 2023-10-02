@@ -101,6 +101,7 @@ module.exports =  {
     '@typescript-eslint/no-inferrable-types': [ 'off' ], // Collides with typedef
     '@typescript-eslint/no-unsafe-assignment': [ 'off' ], // Enables 'any' typed variables on assignments
     '@typescript-eslint/no-unsafe-call': [ 'off' ], // Enables the 'any' typed variables as parameters
+    '@typescript-eslint/no-unsafe-enum-comparison': [ 'off' ], // Enables comparing enums to string
     '@typescript-eslint/no-unsafe-member-access': [ 'off' ], // Enables nesting properties on 'any' type
     '@typescript-eslint/no-unsafe-return': [ 'off' ], // Enables 'any' typed variables on returns
     '@typescript-eslint/restrict-template-expressions': [ 'off' ], // Complicates handling Error objects
