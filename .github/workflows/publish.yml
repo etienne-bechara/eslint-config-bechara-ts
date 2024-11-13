@@ -30,4 +30,4 @@ jobs:
         run: |
           npm i -g pnpm
           pnpm i --frozen-lockfile
-          semantic-release
+          pnpm release

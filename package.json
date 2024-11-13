@@ -22,7 +22,8 @@
     ]
   },
   "scripts": {
-    "prepare": "husky ./.config/husky"
+    "prepare": "husky ./.config/husky",
+    "release": "semantic-release"
   },
   "commitlint": {
     "extends": [
