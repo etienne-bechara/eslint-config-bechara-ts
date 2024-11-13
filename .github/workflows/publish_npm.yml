@@ -27,6 +27,8 @@ jobs:
           node-version: 22.x
 
       - name: Publish Package to NPM
+        env:
+          HUSKY: 0
         run: |
           npm i -g pnpm
           pnpm i --frozen-lockfile
