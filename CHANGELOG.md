@@ -1,3 +1,10 @@
+# [1.6.0-alpha.2](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.6.0-alpha.1...v1.6.0-alpha.2) (2024-11-13)
+
+
+### Bug Fixes
+
+* remove globals ([fd3fb37](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/fd3fb37a70fbef20c25f538a103b8e8227e943b7))
+
 # [1.6.0-alpha.1](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.5.1...v1.6.0-alpha.1) (2024-11-13)
 
 
