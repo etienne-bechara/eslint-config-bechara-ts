@@ -1,4 +1,9 @@
 module.exports =  {
+
+  globals: {
+    MyGlobal: true
+  },
+
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
@@ -236,4 +241,5 @@ module.exports =  {
     'comma-dangle': [ 'warn', 'always-multiline' ],
     'curly': [ 'warn', 'multi-line', 'consistent' ],
   },
+
 };
