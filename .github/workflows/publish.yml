@@ -21,8 +21,13 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22.x
+
       - name: Publish Package to NPM
         run: |
-          npm i -g pnpm @semantic-release/changelog @semantic-release/git semantic-release
+          npm i -g pnpm
           pnpm i --frozen-lockfile
           semantic-release
