@@ -1,3 +1,10 @@
+# [1.6.0-alpha.3](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.6.0-alpha.2...v1.6.0-alpha.3) (2024-11-13)
+
+
+### Bug Fixes
+
+* return globals ([ba598e6](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/ba598e6d87cc506c85d784190e743a955b3ad915))
+
 # [1.6.0-alpha.2](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.6.0-alpha.1...v1.6.0-alpha.2) (2024-11-13)
 
 
