@@ -1,3 +1,16 @@
+# [1.6.0-alpha.1](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.5.1...v1.6.0-alpha.1) (2024-11-13)
+
+
+### Bug Fixes
+
+* disable husky on publish ([6e6065b](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/6e6065bdb8a2e9dbdc4e66649ead9b69be5e4005))
+* upgrade husky ([8b82e66](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/8b82e662a4477abe5589a874f26b5fcdc0fcc2df))
+
+
+### Features
+
+* bump versions ([4434fbf](https://github.com/etienne-bechara/eslint-config-bechara-ts/commit/4434fbf46ce15aef81c839186ff950098eca315d))
+
 ## [1.5.1](https://github.com/etienne-bechara/eslint-config-bechara-ts/compare/v1.5.0...v1.5.1) (2023-10-02)
 
 
