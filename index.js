@@ -224,7 +224,6 @@ module.exports =  {
     'eol-last': [ 'warn', 'always' ],
     'function-call-argument-newline': [ 'warn', 'consistent' ],
     'lines-between-class-members': [ 'warn', 'always', { exceptAfterSingleLine: true } ],
-    'newline-per-chained-call': [ 'warn', { ignoreChainWithDepth: 3 }],
     'no-multiple-empty-lines': [ 'warn', { max: 1 }],
     'object-curly-newline': [ 'warn', { multiline: true, consistent: true } ],
     'object-property-newline': [ 'warn', { allowAllPropertiesOnSameLine : true } ],
